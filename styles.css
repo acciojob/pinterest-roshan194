@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply global font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Hero Image */
+.hero img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hero Content */
+.hero-content {
+    width: 40%;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Heading */
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Explore Now Button */
+.hero-content a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Button Hover Effect */
+.hero-content a:hover {
+    background-color: darkred;
+}
